@@ -1,0 +1,31 @@
+
+
+#city_block,#city_block2{
+    position: relative;
+}
+
+#city_block .box,#city_block2 .box {
+    top: 47px;
+    max-height: 200px;
+    max-width: 300px;
+
+
+    position: absolute;
+    
+    background-color: white;
+    z-index: 9;
+    overflow-y: scroll;
+    width: 100%;
+
+}
+
+#city_block .box a,#city_block2 .box a{
+    cursor: pointer;
+    color: #165153;
+    text-decoration: none;
+}
+
+#city_block .box a:hover,#city_block2 .box a:hover{
+    color: #0080FF;
+    text-decoration: underline;
+}
